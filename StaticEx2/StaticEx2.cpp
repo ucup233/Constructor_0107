@@ -14,8 +14,13 @@ public:
 	static void setNim(long long int pNim) { nim = pNim; }
 	static long long int getNim() { return nim; }
 
-	mahasiswa(string pnama) :nama(pnama) { setID(); }
+	mahasiswa(string pnama) { 
+		nama = pnama;
+		setID(); }
 };
 
 long long int mahasiswa::nim = 20230140107;
 
+void mahasiswa::setID() {
+	id = ++nim;
+}
