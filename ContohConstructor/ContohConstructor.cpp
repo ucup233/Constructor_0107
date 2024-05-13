@@ -11,14 +11,9 @@ public:
 		nim = 0;
 		nama = "";
 	};
-	Mahasiswa(int iNim) {
-		nim = iNim;
-	};
-	Mahasiswa(string iNama) {
-		nama = iNama;
-	};
-	Mahasiswa(int cNim, string cNama) {
-	};
+	Mahasiswa(int iNim);
+	Mahasiswa(string iNama);
+	Mahasiswa(int cNim, string cNama) ;
 	void cetak() {
 		cout << endl << "Nim = " << nim << endl;
 		cout << "Nama = " << nama << endl;

@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticEx2", "StaticEx2\Stat
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContohConstructor", "ContohConstructor\ContohConstructor.vcxproj", "{BBCB11AA-E14B-489B-B043-869074A0EB84}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ContohDestructor", "ContohDestructor\ContohDestructor.vcxproj", "{97B74903-F84E-42D5-90AA-AE1980375AD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -55,6 +57,18 @@ Global
 		{BBCB11AA-E14B-489B-B043-869074A0EB84}.Release|x64.Build.0 = Release|x64
 		{BBCB11AA-E14B-489B-B043-869074A0EB84}.Release|x86.ActiveCfg = Release|Win32
 		{BBCB11AA-E14B-489B-B043-869074A0EB84}.Release|x86.Build.0 = Release|Win32
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Debug|ARM64.Build.0 = Debug|ARM64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Debug|x64.ActiveCfg = Debug|x64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Debug|x64.Build.0 = Debug|x64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Debug|x86.ActiveCfg = Debug|Win32
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Debug|x86.Build.0 = Debug|Win32
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Release|ARM64.ActiveCfg = Release|ARM64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Release|ARM64.Build.0 = Release|ARM64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Release|x64.ActiveCfg = Release|x64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Release|x64.Build.0 = Release|x64
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Release|x86.ActiveCfg = Release|Win32
+		{97B74903-F84E-42D5-90AA-AE1980375AD4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
