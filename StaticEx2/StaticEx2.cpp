@@ -22,11 +22,24 @@ public:
 long long int mahasiswa::nim = 20230140107;
 
 void mahasiswa::setID() {
-	id = ++nim;
+	id = nim++;
 }
 
 void mahasiswa::printAll() {
 	cout << "ID = " << id << endl;
 	cout << "Nama = " << nama << endl;
 	cout << endl;
+}
+
+int main() {
+	mahasiswa mhs1("Yusuf Hidayat");
+	mahasiswa mhs2("Budi Hartono");
+	mahasiswa::setNim(20230140130);
+	mahasiswa mhs3("Andi Sucipto");
+	mahasiswa mhs4("Joko Widodo");
+
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
 }
