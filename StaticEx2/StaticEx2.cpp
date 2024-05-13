@@ -19,10 +19,10 @@ public:
 		setID(); }
 };
 
-long long int mahasiswa::nim = 20230140107;
+long long int mahasiswa::nim = 20230140106;
 
 void mahasiswa::setID() {
-	id = nim++;
+	id = ++nim;
 }
 
 void mahasiswa::printAll() {
@@ -42,4 +42,7 @@ int main() {
 	mhs2.printAll();
 	mhs3.printAll();
 	mhs4.printAll();
+
+	cout << "akses dari luar objek = " << mahasiswa::getNim() << endl;
+	return 0;
 }
