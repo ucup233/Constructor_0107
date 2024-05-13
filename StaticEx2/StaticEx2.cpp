@@ -24,3 +24,9 @@ long long int mahasiswa::nim = 20230140107;
 void mahasiswa::setID() {
 	id = ++nim;
 }
+
+void mahasiswa::printAll() {
+	cout << "ID = " << id << endl;
+	cout << "Nama = " << nama << endl;
+	cout << endl;
+}
